@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200&display=swap');
+:root{
+    --red:#EF233C;
+    --white:white;
+}
+
+body{
+    margin: 0;
+    height:100vh;
+    background-color:black;
+    
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Oswald', sans-serif;
+
+    color: white;
+}
+.nav-item a{
+    color:var(--white);
+}
+
+.nav-item a:hover{
+    color: red;
+}
+
+.h-5{
+    min-height: 450px;
+}
+.profile{
+    width:80%;
+    margin:20px ;
+    filter: drop-shadow(10px 10px 30px white);
+}
+
+.card img{
+    height: 300px;
+    width: 80%;
+}
+.title{
+    color:red;
+    text-align:center;
+}
+.icons i{
+    margin-left: 10px;
+    color: var(--red);
+}
+
+/* image animation using css */
+
